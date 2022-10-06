@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Create your models here.
 class Tweets(models.Model):
-    striked = models.BooleanField()
+    striked = models.FloatField()
     time = models.DateTimeField(default = datetime.now)
 
     def __str__(self):
