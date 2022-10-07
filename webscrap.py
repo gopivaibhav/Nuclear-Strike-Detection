@@ -2,7 +2,7 @@ import openai
 import tweepy
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "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"
 _consumer_key = "pv1LOSv3B1sh24RhQOVUpFr8R"
 _consumer_secret = "ZzfCkLz84F4u66i4MF6iDxi80acVUWUt5uJ4xSdjjszYZNw092"
 _access_token = "1538028743796871168-CRTzRDMx7yFrF5UV08x7Yw6EkPUDcu"

@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xql#35nza*53xus6c2-id65&ce7k55u8o7=w6c=t3scen%3kp%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['7b3aa4b8-78ec-4f9a-abd2-a5aded82a3dc.id.repl.co', 'localhost', '127.0.0.1']
 
 
 # Application definition

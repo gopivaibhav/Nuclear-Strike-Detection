@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from .models import Tweets
 import webscrap
 
@@ -16,3 +16,6 @@ def call_web():
     )
     tweet.save()
     return tweet
+
+def index(request):
+    return HttpResponse("Server is Up and Running")
